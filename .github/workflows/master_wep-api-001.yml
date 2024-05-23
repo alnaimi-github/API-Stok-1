@@ -54,4 +54,4 @@ jobs:
           app-name: 'wep-api-001'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2608D887BCA74389A1B4CB40936AF234 }}
+          publish-profile: ${{ DEVELOPMENT }}
